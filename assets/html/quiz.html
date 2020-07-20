@@ -1,0 +1,52 @@
+<md-content>
+<section class="wrapper" layout="column" layout-align="top start" layout-wrap>
+<div class="quiz-area" ng-show="inProgress">
+    <!-- Question -->
+    <div class="question" ng-show="!quizOver">
+        <!-- p>{{group}} - {{subgroup}}</p -->
+        <img ng-src="../images/quiz/{{image}}" alt="{{image}}" class="question-image" width="100%">
+        <!-- p>{{name}}</p -->
+        <h2 id="question">{{question}}</h2>
+
+        <div layout="column" layout-align=" start" ng-show="fieldType == 'checkbox'">
+           <md-checkbox
+                ng-repeat="option in options"
+                ng-model="optionModel[$index]"
+                name="answer[]"
+                value="{{option}}"
+                aria-label="{{option}}">{{option}}</md-checkbox>
+        </div>
+
+        <md-radio-group ng-model="optionModel" ng-show="fieldType == 'radio'">
+            <md-radio-button
+                ng-repeat="option in options"
+                name="answer"
+                value="{{option}}"
+                aria-label="{{option}}">{{option}}</md-radio-button>
+        </md-radio-group>
+        <md-button class="md-raised md-primary" ng-click="checkAnswer(optionModel)" ng-show="answerMode">{{lang.submit}}</md-button>
+
+        <div ng-show="!answerMode">
+            <md-button class="md-raised md-primary" ng-click="nextQuestion()" class="next-question">{{lang.next}}</md-button>
+            <span ng-show="correctAns">{{lang.answer.correct}}</span>
+            <span ng-show="!correctAns">{{lang.answer.wrong}}</span>
+        </div>
+    </div>
+
+    <!-- Finish View -->
+    <div class="quizOver" ng-show="quizOver">
+        <h2>{{lang.score}}: {{score}}</h2>
+        <md-button class="md-raised" ng-click="reset()">{{lang.reset}}</md-button>
+    </div>
+
+</div>
+
+<!-- Start View -->
+<div class="intro" ng-show="!inProgress">
+    <h2>{{lang.welcome}}</h2>
+    <img ng-src="../images/{{lang.logo}}" alt="logo" width="100%">
+    <p>{{lang.introduction}}</p>
+    <md-button class="md-raised md-primary" id="startQuiz" ng-click="start()">{{lang.start}}</md-button>
+</div>
+</section>
+</md-content>

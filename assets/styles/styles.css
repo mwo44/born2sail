@@ -1,0 +1,40 @@
+section {
+    padding: auto 1em;
+    margin: auto 1em;
+}
+.question-image {
+    margin-top: 1em;
+}
+button.md-button {
+    position: relative;
+    left: -1em;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 400ms ease;
+}
+ul, li {
+    list-style: none;
+    padding-left: 0;
+}
+.intro {
+    text-align: center;
+    width: 100%;
+}
+.intro img[alt="logo"] {
+    margin: auto;
+}
+.intro p {
+    text-align: left;
+}
+.wrapper,
+.ng-hide-remove {
+    animation: showEffect 800ms ease-in-out;
+}
+@keyframes showEffect {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

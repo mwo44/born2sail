@@ -1,0 +1,302 @@
+{
+  "language":{
+    "logo":"logo.png",
+    "welcome":"Born to Sail exercises",
+    "introduction":"Welcome Born to Sail exercises. Some introductory text.",
+    "start":"Press to start",
+    "score":"Your score",
+    "reset":"Try Again",
+    "next":"Next question",
+    "answer":{
+      "correct":"Correct!",
+      "wrong":"Sorry, wrong."
+    },
+    "submit":"Check"
+  },
+  "questions":{
+    "question_01":{
+      "image":"1.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Crossing sign",
+      "options":[
+        "Crossing sign",
+        "No overtaking",
+        "Order to stay to the right side of the shipping lane"
+      ],
+      "answer":0
+    },
+    "question_02":{
+      "image":"2.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No overtaking",
+      "options":[
+        "No overtaking on the righ",
+        "No overtaking on the left",
+        "No overtaking"
+      ],
+      "answer":2
+    },
+    "question_03":{
+      "image":"3.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No overtaking (dotyczy tylko zestawów)",
+      "options":[
+        "No overtaking",
+        "No overtaking dotyczący tyko zestawów",
+        "No overtaking dotyczący jachtów z napędem żaglowym"
+      ],
+      "answer":0
+    },
+    "question_04":{
+      "image":"4.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No passing and no overtaking",
+      "options":[
+        "No passing",
+        "No overtaking",
+        "No passing and no overtaking"
+      ],
+      "answer": 2
+    },
+    "question_05":{
+      "image":"4.jpg",
+      "question":"If you see this sign, can you overtake another vessel?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No passing and no overtaking",
+      "options":[
+        "Yes",
+        "Nop"
+      ],
+      "answer": 1
+    },
+    "question_06":{
+      "image":"5.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No anchoring or mooring at the shore",
+      "options":[
+        "No anchoring",
+        "No mooring at the shore",
+        "No anchoring or mooring at the shore"
+      ],
+      "answer": 2
+    },
+    "question_07":{
+      "image":"5.jpg",
+      "question":"If you see this sign, can you moor at the shore?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No anchoring or mooring at the shore",
+      "options":[
+        "Yes",
+        "No"
+      ],
+      "answer": 1
+    },
+    "question_08":{
+      "image":"6.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No halting at the width specified on the sign in meters (from the sign)",
+      "options":[
+        "Speed limit to 40 km/h",
+        "No halting at the width specified on the sign in nautical miles",
+        "No halting at the width specified on the sign in meters"
+      ],
+      "answer": 2
+    },
+    "question_09":{
+      "image":"7.jpg",
+      "question":"The depicted sign prohibits:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No anchoring, no dragging the anchor, chain or rope",
+      "options":[
+        "Anchoring",
+        "Dragging the anchor, chain or rope",
+        "Both"
+      ],
+      "answer": 1
+    },
+    "question_10":{
+      "image":"8.jpg",
+      "question":"Can you moor seeing such a sign?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No mooring at the shore",
+      "options":[
+        "Yes",
+        "No",
+        "The information is placed under the sign"
+      ],
+      "answer": 1
+    },
+    "question_11":{
+      "image":"9.jpg",
+      "question":"Can you turn back when you see such a sign?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No U-Turns",
+      "options":[
+        "Yes",
+        "No",
+        "Only turning right"
+      ],
+      "answer": 1
+    },
+    "question_12":{
+      "image":"10.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No wave formation",
+      "options":[
+        "No wave formation",
+        "No passage",
+        "No passage under the bridge"
+      ],
+      "answer": 0
+    },
+    "question_13":{
+      "image":"11.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No passage outside the gauge",
+      "options":[
+        "No warrant",
+        "Prohibition",
+        "Recommendation"
+      ],
+      "answer": 1
+    },
+    "question_14":{
+      "image":"12.jpg",
+      "question":"When you see this sign, can you continue going with the engine?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Ban on power-driven vessels",
+      "options":[
+        "Yes",
+        "No",
+        "Yes, when using an electric engine"
+      ],
+      "answer": 1
+    },
+    "question_15":{
+      "image":"13.jpg",
+      "question":"When you see this sign, can you continue sailing??",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "No vessels used for sports and recreation",
+      "options":[
+        "Yes",
+        "No",
+        "Yes, only when using an engine"
+      ],
+      "answer": 1
+    },
+    "question_16":{
+      "image":"14.jpg",
+      "question":"Czy widząc taki znak można holować narciarza?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Water skiing and towing are prohibited",
+      "options":[
+        "Yes",
+        "No",
+        "Yes, only when wave is created"
+      ],
+      "answer": 1
+    },
+    "question_17":{
+      "image":"15.jpg",
+      "question":"If the helmsperson sees such a sign, can s|he continue?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Sailing prohibited",
+      "options":[
+        "Yes",
+        "Yes, with a different drive than sails",
+        "No"
+      ],
+      "answer": 1
+    },
+    "question_18":{
+      "image":"16.jpg",
+      "question":"The sign prohibits further swimming:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Ships other than motor and sailing are prohibited",
+      "options":[
+        "Sailing yachts powered by sails",
+        "Motor-powered boats",
+        "Oar-powered boats"
+      ],
+      "answer": 2
+    },
+    "question_19":{
+      "image":"17.jpg",
+      "question":"The depicted sign prohibits:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Sail board forbidden",
+      "options":[
+        "Sailing a sail-powered board",
+        "Sailing sailboats",
+        "Sailing power-driven vessels"
+      ],
+      "answer": 0
+    },
+    "question_20":{
+      "image":"18.jpg",
+      "question":"If the helmsperson sees such a sign, can s|he continue?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "The end of a zone where small sports or recreation vessels could develop high speeds",
+      "options":[
+        "Yes",
+        "No",
+        "Yes, unless developing high speeds"
+      ],
+      "answer": 2
+    },
+    "question_21":{
+      "image":"19.jpg",
+      "question":"Can you launch a vessel when you see such a sign?",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Launching and hauling ships ashore forbidden",
+      "options":[
+        "Yes",
+        "No",
+        "Yes, if it doesn't pollute the environment"
+      ],
+      "answer": 1
+    },
+    "question_22":{
+      "image":"20.jpg",
+      "question":"This sign means:",
+      "group": "Inland pilotage",
+      "subgroup": "Prohibition signs",
+      "name": "Jetskiing prohibited",
+      "options":[
+        "Power-driven craft prohibited",
+        "High speeds prohibited",
+        "Jetskiing prohibited"
+      ],
+      "answer": 2
+    }
+  }
+}

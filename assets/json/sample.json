@@ -1,0 +1,73 @@
+{
+  "language":{
+    "logo":"logo.png",
+    "welcome":"welcome text",
+    "introduction":"intro text",
+    "start":"Start",
+    "score":"Score",
+    "reset":"Reset",
+    "next":"Next",
+    "answer":{
+      "correct":"Correct!",
+      "wrong":"False, you're wrong."
+    },
+    "submit":"Check"
+  },
+  "questions":{
+    "01":{
+      "image":"01.png",
+      "question":"Question?",
+      "options":[
+        "Answer option 01",
+        "Answer option 02",
+        "Answer option 03",
+        "Answer option 04"
+      ],
+      "answer":0
+    },
+    "02":{
+      "image":"02.png",
+      "question":"Question?",
+      "options":[
+        "Answer option 01",
+        "Answer option 02",
+        "Answer option 03",
+        "Answer option 04"
+      ],
+      "answer":3
+    },
+    "03":{
+      "image":"03.jpg",
+      "question":"Question?",
+      "options":[
+        "Answer option 01",
+        "Answer option 02",
+        "Answer option 03",
+        "Answer option 04"
+      ],
+      "answer":2
+    },
+    "04":{
+      "image":"04.jpg",
+      "question":"Question?",
+      "options":[
+        "Answer option 01",
+        "Answer option 02",
+        "Answer option 03",
+        "Answer option 04"
+      ],
+      "answer": 1
+    },
+    "05":{
+      "image":"05.gif",
+      "question":"Question?",
+      "options":[
+        "Answer option 01",
+        "Answer option 02",
+        "Answer option 03",
+        "Answer option 04"
+      ],
+      "answer":[0,1,2]
+    }
+  }
+}
